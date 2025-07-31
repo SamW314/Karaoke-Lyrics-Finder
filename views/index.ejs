@@ -18,12 +18,13 @@
     <input type="text" id="authorInput" name="author" class="input">
     <input type="text" id="tytleInput" name="tytle" class="input">
     <button type="submit" value="submit"></button>
+    <!-- error message -->
+    <% if (notFound) { %>
+      <p>Song not found, check typo or change a song!</p>
+    <% } %>
   </form>
 
-  <!-- error message -->
-  <div id="errorMessage" class="hidden">
-
-  </div>
+  
 
   <!-- footer -->
   <p class="footer">Samantha Wang <%= new Date().getFullYear() %> ©, contact at: yuhanwang-inaus@hotmail.com</p>
