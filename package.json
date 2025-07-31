@@ -2,6 +2,7 @@
   "name": "03-karaoke-lyrics-finder",
   "version": "1.0.0",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,7 @@
   "dependencies": {
     "axios": "^1.11.0",
     "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0"
   }
 }
